@@ -1,0 +1,128 @@
+
+adminuser@6CLN6L3:~$ mkdir balakrishna
+adminuser@6CLN6L3:~$ cd balakrishna
+adminuser@6CLN6L3:~/balakrishna$ touch test1
+adminuser@6CLN6L3:~/balakrishna$ cd test1
+-bash: cd: test1: Not a directory
+adminuser@6CLN6L3:~/balakrishna$ vim test1
+adminuser@6CLN6L3:~/balakrishna$ cat test1
+welcome linux practice
+
+student bala and manisha
+
+hgdhwhdklmhwe
+njighhndlmdg
+
+adminuser@6CLN6L3:~/balakrishna$
+adminuser@6CLN6L3:~/balakrishna$
+adminuser@6CLN6L3:~/balakrishna$
+adminuser@6CLN6L3:~/balakrishna$
+adminuser@6CLN6L3:~/balakrishna$ ls -a
+.  ..  test1
+adminuser@6CLN6L3:~/balakrishna$ mkdir Dir1 Dir2 Dir3
+adminuser@6CLN6L3:~/balakrishna$ pwd
+/home/adminuser/balakrishna
+adminuser@6CLN6L3:~/balakrishna$ cd ..
+adminuser@6CLN6L3:~$ mkdir practice
+adminuser@6CLN6L3:~$ pwd
+/home/adminuser
+adminuser@6CLN6L3:~$ mkdir Dir1 Dir2 Dir3
+adminuser@6CLN6L3:~$ rm -rf Dir1 Dir2 Dir3
+adminuser@6CLN6L3:~$
+adminuser@6CLN6L3:~$
+adminuser@6CLN6L3:~$
+adminuser@6CLN6L3:~$
+adminuser@6CLN6L3:~$ cd practice
+adminuser@6CLN6L3:~/practice$ mkdir dir1 dir2 dir3
+adminuser@6CLN6L3:~/practice$ cd dir1
+adminuser@6CLN6L3:~/practice/dir1$ touch file1.txt file2.txt file3.txt
+adminuser@6CLN6L3:~/practice/dir1$ vim file1.txt
+adminuser@6CLN6L3:~/practice/dir1$ cat file1.txt
+Hello, this is a test file
+adminuser@6CLN6L3:~/practice/dir1$ cp file1.txt dir2
+adminuser@6CLN6L3:~/practice/dir1$ cd
+adminuser@6CLN6L3:~$ cd ..
+adminuser@6CLN6L3:/home$ cd practice
+-bash: cd: practice: No such file or directory
+adminuser@6CLN6L3:/home$
+adminuser@6CLN6L3:/home$
+adminuser@6CLN6L3:/home$
+adminuser@6CLN6L3:/home$
+adminuser@6CLN6L3:/home$ cd /practice
+-bash: cd: /practice: No such file or directory
+
+adminuser@6CLN6L3:~/practice/dir1$ touch file1.txt
+adminuser@6CLN6L3:~/practice/dir1$ vim file1.txt
+adminuser@6CLN6L3:~/practice/dir1$ cat file.txt1
+cat: file.txt1: No such file or directory
+adminuser@6CLN6L3:~/practice/dir1$ cd .
+adminuser@6CLN6L3:~/practice/dir1$ cd ..
+
+adminuser@6CLN6L3:~/practice/dir2$ cd ..
+adminuser@6CLN6L3:~/practice$
+adminuser@6CLN6L3:~/practice$
+adminuser@6CLN6L3:~/practice$
+adminuser@6CLN6L3:~/practice$
+adminuser@6CLN6L3:~/practice$
+adminuser@6CLN6L3:~/practice$ mv dir1/file2.txt dir3
+Linux  balakrishna  linux  practice
+
+./Linux:
+
+./balakrishna:
+Dir1  Dir2  Dir3  test1
+
+./balakrishna/Dir1:
+
+./balakrishna/Dir2:
+
+./balakrishna/Dir3:
+
+./linux:
+code
+
+./linux/code:
+scripts
+
+./linux/code/scripts:
+
+./practice:
+dir1
+
+./practice/dir1:
+dir2  file1.txt
+adminuser@6CLN6L3:~$ cd practice
+adminuser@6CLN6L3:~/practice$ cd ..
+adminuser@6CLN6L3:~$ cp -r /practice backuppractice
+cp: cannot stat '/practice': No such file or directory
+adminuser@6CLN6L3:~$ pwd
+/home/adminuser
+adminuser@6CLN6L3:~$ cd prictice
+-bash: cd: prictice: No such file or directory
+adminuser@6CLN6L3:~$ cd practice
+adminuser@6CLN6L3:~/practice$ cd .
+adminuser@6CLN6L3:~/practice$ cp -r /practice backuppractice
+cp: cannot stat '/practice': No such file or directory
+adminuser@6CLN6L3:~/practice$ cd ..
+adminuser@6CLN6L3:~$ cp -r /practice backuppractice
+cp: cannot stat '/practice': No such file or directory
+adminuser@6CLN6L3:~$ cp -r practice backuppractice
+adminuser@6CLN6L3:~$ cp -r practice
+cp: missing destination file operand after 'practice'
+Try 'cp --help' for more information.
+adminuser@6CLN6L3:~$ cd backuppractice
+adminuser@6CLN6L3:~/backuppractice$ ls -a
+.  ..  dir1
+adminuser@6CLN6L3:~/backuppractice$ cd dir1
+adminuser@6CLN6L3:~/backuppractice/dir1$ vim file1.txt
+adminuser@6CLN6L3:~/backuppractice/dir1$ cat file1.txt
+Hello, this is a test file
+balakrishna
+manisha
+prakash
+adminuser@6CLN6L3:~/backuppractice/dir1$
+adminuser@6CLN6L3:~/backuppractice/dir1$
+adminuser@6CLN6L3:~/backuppractice/dir1$
+adminuser@6CLN6L3:~/backuppractice/dir1$
+adminuser@6CLN6L3:~/backuppractice/dir1$ cd ..
+adminuser@6CLN6L3:~/backuppractice$ cd ..
