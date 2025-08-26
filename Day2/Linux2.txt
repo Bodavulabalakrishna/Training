@@ -1,0 +1,508 @@
+adminuser@6CLN6L3:~$ ls /bin
+ NF                                   hub-tool                           rrsync
+'['                                   hwe-support-status                 rsh
+ aa-enabled                           i386                               rsync
+ aa-exec                              iconv                              rsync-ssl
+ aa-features-abi                      id                                 rtstat
+ add-apt-repository                   info                               run-one
+ addpart                              infobrowser                        run-one-constantly
+ addr2line                            infocmp                            run-one-until-failure
+ apport-bug                           infotocap                          run-one-until-success
+ apport-cli                           install                            run-parts
+ apport-collect                       install-info                       run-this-one
+ apport-unpack                        instmodsh                          runcon
+ apropos                              ionice                             rview
+ apt                                  ip                                 rvim
+ apt-add-repository                   ipcmk                              savelog
+ apt-cache                            ipcrm                              scp
+ apt-cdrom                            ipcs                               screen
+ apt-config                           iptables-xml                       screendump
+ apt-extracttemplates                 ischroot                           script
+ apt-ftparchive                       join                               scriptlive
+ apt-get                              journalctl                         scriptreplay
+ apt-key                              json_pp                            sdiff
+ apt-mark                             kbd_mode                           sed
+ apt-sortpkgs                         kbdinfo                            select-editor
+ ar                                   kbxutil                            sensible-browser
+ arch                                 keep-one-running                   sensible-editor
+ as                                   kernel-install                     sensible-pager
+ awk                                  keyring                            seq
+ b2sum                                kill                               setarch
+ base32                               killall                            setfont
+ base64                               kmod                               setkeycodes
+ basename                             last                               setleds
+ basenc                               lastb                              setlogcons
+ bash                                 lastlog                            setmetamode
+ bashbug                              lcf                                setpci
+ bootctl                              ld                                 setpriv
+ busctl                               ld.bfd                             setsid
+ busybox                              ld.gold                            setterm
+ byobu                                ldd                                setupcon
+ byobu-config                         less                               sftp
+ byobu-ctrl-a                         lessecho                           sg
+ byobu-disable                        lessfile                           sh
+ byobu-disable-prompt                 lesskey                            sha1sum
+ byobu-enable                         lesspipe                           sha224sum
+ byobu-enable-prompt                  lexgrog                            sha256sum
+ byobu-export                         libnetcfg                          sha384sum
+ byobu-janitor                        link                               sha512sum
+ byobu-keybindings                    linux32                            shasum
+ byobu-launch                         linux64                            showconsolefont
+ byobu-launcher                       ln                                 showkey
+ byobu-launcher-install               lnstat                             shred
+ byobu-launcher-uninstall             loadkeys                           shuf
+ byobu-layout                         loadunimap                         size
+ byobu-prompt                         locale                             skill
+ byobu-quiet                          locale-check                       slabtop
+ byobu-reconnect-sockets              localectl                          sleep
+ byobu-screen                         localedef                          slogin
+ byobu-select-backend                 logger                             snap
+ byobu-select-profile                 login                              snapctl
+ byobu-select-session                 loginctl                           snapfuse
+ byobu-shell                          logname                            snice
+ byobu-silent                         look                               soelim
+ byobu-status                         lowntfs-3g                         sort
+ byobu-status-detail                  ls                                 splain
+ byobu-tmux                           lsattr                             split
+ byobu-ugraph                         lsb_release                        splitfont
+ byobu-ulevel                         lsblk                              sqfscat
+ c++filt                              lscpu                              sqfstar
+ c_rehash                             lshw                               ss
+ captoinfo                            lsipc                              ssh
+ cat                                  lslocks                            ssh-add
+ catman                               lslogins                           ssh-agent
+ chage                                lsmem                              ssh-argv0
+ chattr                               lsmod                              ssh-copy-id
+ chcon                                lsns                               ssh-keygen
+ chfn                                 lsof                               ssh-keyscan
+ chgrp                                lspci                              stat
+ chmod                                lspgpot                            static-sh
+ choom                                lsusb                              stdbuf
+ chown                                lzcat                              strace
+ chrt                                 lzcmp                              strace-log-merge
+ chsh                                 lzdiff                             streamzip
+ chvt                                 lzegrep                            strings
+ ckbcomp                              lzfgrep                            strip
+ cksum                                lzgrep                             stty
+ clear                                lzless                             su
+ clear_console                        lzma                               sudo
+ cmp                                  lzmainfo                           sudoedit
+ codepage                             lzmore                             sudoreplay
+ col                                  man                                sum
+ col1                                 man-recode                         sync
+ col2                                 mandb                              systemctl
+ col3                                 manifest                           systemd
+ col4                                 manpath                            systemd-analyze
+ col5                                 mapscrn                            systemd-ask-password
+ col6                                 mawk                               systemd-cat
+ col7                                 mcookie                            systemd-cgls
+ col8                                 md5sum                             systemd-cgtop
+ col9                                 md5sum.textutils                   systemd-cryptenroll
+ colcrt                               mdig                               systemd-delta
+ colrm                                mesg                               systemd-detect-virt
+ column                               migrate-pubring-from-classic-gpg   systemd-escape
+ comm                                 mk_modmap                          systemd-hwdb
+ compose-bridge                       mkdir                              systemd-id128
+ corelist                             mkfifo                             systemd-inhibit
+ cp                                   mknod                              systemd-machine-id-setup
+ cpan                                 mksquashfs                         systemd-mount
+ cpan5.34-x86_64-linux-gnu            mktemp                             systemd-notify
+ cpio                                 more                               systemd-path
+ crontab                              mount                              systemd-run
+ csplit                               mountpoint                         systemd-socket-activate
+ ctail                                mt                                 systemd-stdio-bridge
+ ctstat                               mt-gnu                             systemd-sysext
+ curl                                 mtr                                systemd-sysusers
+ cut                                  mtr-packet                         systemd-tmpfiles
+ cvtsudoers                           mv                                 systemd-tty-ask-password-agent
+ dash                                 namei                              systemd-umount
+ date                                 nano                               tabs
+ dbus-cleanup-sockets                 nawk                               tac
+ dbus-daemon                          nc                                 tail
+ dbus-launch                          nc.openbsd                         tar
+ dbus-monitor                         neqn                               taskset
+ dbus-run-session                     netcat                             tbl
+ dbus-send                            networkctl                         tcpdump
+ dbus-update-activation-environment   networkd-dispatcher                tee
+ dbus-uuidgen                         newgrp                             telnet
+ dd                                   ngettext                           telnet.netkit
+ deallocvt                            nice                               tempfile
+ deb-systemd-helper                   nisdomainname                      test
+ deb-systemd-invoke                   nl                                 tic
+ debconf                              nm                                 time
+ debconf-apt-progress                 nohup                              timedatectl
+ debconf-communicate                  nproc                              timeout
+ debconf-copydb                       nroff                              tload
+ debconf-escape                       nsenter                            tmux
+ debconf-set-selections               nslookup                           tnftp
+ debconf-show                         nstat                              toe
+ debian-distro-info                   nsupdate                           top
+ delpart                              ntfs-3g                            touch
+ delv                                 ntfs-3g.probe                      tput
+ df                                   ntfscat                            tr
+ dh_bash-completion                   ntfscluster                        tracepath
+ diff                                 ntfscmp                            troff
+ diff3                                ntfsdecrypt                        true
+ dig                                  ntfsfallocate                      truncate
+ dir                                  ntfsfix                            tset
+ dircolors                            ntfsinfo                           tsort
+ dirmngr                              ntfsls                             tty
+ dirmngr-client                       ntfsmove                           tzselect
+ dirname                              ntfsrecover                        ua
+ distro-info                          ntfssecaudit                       ubuntu-advantage
+ dmesg                                ntfstruncate                       ubuntu-bug
+ dnsdomainname                        ntfsusermap                        ubuntu-core-launcher
+ do-release-upgrade                   ntfswipe                           ubuntu-distro-info
+ docker                               numfmt                             ubuntu-security-status
+ docker-compose                       objcopy                            ucf
+ docker-credential-desktop.exe        objdump                            ucfq
+ docker-index                         od                                 ucfr
+ domainname                           oem-getlogs                        uclampset
+ dpkg                                 on_ac_power                        udevadm
+ dpkg-deb                             openssl                            ul
+ dpkg-divert                          openvt                             umount
+ dpkg-maintscript-helper              pager                              uname
+ dpkg-query                           partx                              unattended-upgrade
+ dpkg-realpath                        passwd                             unattended-upgrades
+ dpkg-split                           paste                              uncompress
+ dpkg-statoverride                    pastebinit                         unexpand
+ dpkg-trigger                         patch                              unicode_start
+ du                                   pathchk                            unicode_stop
+ dumpkeys                             pbget                              uniq
+ dwp                                  pbput                              unlink
+ echo                                 pbputs                             unlzma
+ ed                                   pdb3                               unshare
+ editor                               pdb3.10                            unsquashfs
+ egrep                                peekfd                             unxz
+ eject                                perl                               update-alternatives
+ elfedit                              perl5.34-x86_64-linux-gnu          update-mime-database
+ enc2xs                               perl5.34.0                         uptime
+ encguess                             perlbug                            usb-devices
+ env                                  perldoc                            usbhid-dump
+ envsubst                             perlivp                            usbreset
+ eqn                                  perlthanks                         users
+ ex                                   pgrep                              utmpdump
+ expand                               pic                                uuidgen
+ expiry                               pico                               uuidparse
+ expr                                 piconv                             vdir
+ factor                               pidof                              vi
+ faillog                              pidwait                            view
+ fallocate                            pinentry                           vigpg
+ false                                pinentry-curses                    vim
+ fgconsole                            ping                               vim.basic
+ fgrep                                ping4                              vim.tiny
+ file                                 ping6                              vimdiff
+ fincore                              pinky                              vimtutor
+ find                                 pkaction                           vmstat
+ findmnt                              pkcheck                            w
+ flock                                pkcon                              wall
+ fmt                                  pkexec                             watch
+ fold                                 pkill                              watchgnupg
+ free                                 pkmon                              wc
+ ftp                                  pkttyagent                         wdctl
+ fuser                                pl2pm                              wget
+ fusermount                           pldd                               whatis
+ fusermount3                          plymouth                           whereis
+ gapplication                         pmap                               which
+ gawk                                 pod2html                           which.debianutils
+ gdbus                                pod2man                            whiptail
+ geqn                                 pod2text                           who
+ getconf                              pod2usage                          whoami
+ getent                               podchecker                         wifi-status
+ getkeycodes                          pr                                 write
+ getopt                               preconv                            write.ul
+ gettext                              printenv                           wslinfo
+ gettext.sh                           printf                             wslpath
+ ginstall-info                        prlimit                            x86_64
+ gio                                  pro                                x86_64-linux-gnu-addr2line
+ gio-querymodules                     prove                              x86_64-linux-gnu-ar
+ git                                  prtstat                            x86_64-linux-gnu-as
+ git-receive-pack                     ps                                 x86_64-linux-gnu-c++filt
+ git-shell                            psfaddtable                        x86_64-linux-gnu-dwp
+ git-upload-archive                   psfgettable                        x86_64-linux-gnu-elfedit
+ git-upload-pack                      psfstriptable                      x86_64-linux-gnu-gold
+ glib-compile-schemas                 psfxtable                          x86_64-linux-gnu-gprof
+ gold                                 pslog                              x86_64-linux-gnu-ld
+ gpasswd                              pstree                             x86_64-linux-gnu-ld.bfd
+ gpg                                  pstree.x11                         x86_64-linux-gnu-ld.gold
+ gpg-agent                            ptar                               x86_64-linux-gnu-nm
+ gpg-connect-agent                    ptardiff                           x86_64-linux-gnu-objcopy
+ gpg-wks-server                       ptargrep                           x86_64-linux-gnu-objdump
+ gpg-zip                              ptx                                x86_64-linux-gnu-ranlib
+ gpgcompose                           purge-old-kernels                  x86_64-linux-gnu-readelf
+ gpgconf                              pwd                                x86_64-linux-gnu-size
+ gpgparsemail                         pwdx                               x86_64-linux-gnu-strings
+ gpgsm                                py3clean                           x86_64-linux-gnu-strip
+ gpgsplit                             py3compile                         xargs
+ gpgtar                               py3versions                        xauth
+ gpgv                                 pydoc3                             xdg-user-dir
+ gpic                                 pydoc3.10                          xdg-user-dirs-update
+ gprof                                pygettext3                         xsubpp
+ grep                                 pygettext3.10                      xxd
+ gresource                            python3                            xz
+ groff                                python3.10                         xzcat
+ grog                                 ranlib                             xzcmp
+ grops                                rbash                              xzdiff
+ grotty                               rcp                                xzegrep
+ groups                               rdma                               xzfgrep
+ gsettings                            readelf                            xzgrep
+ gtbl                                 readlink                           xzless
+ gunzip                               realpath                           xzmore
+ gzexe                                red                                yes
+ gzip                                 renice                             ypdomainname
+ h2ph                                 reset                              zcat
+ h2xs                                 resizecons                         zcmp
+ hardlink                             resizepart                         zdiff
+ hd                                   resolvectl                         zdump
+ head                                 rev                                zegrep
+ helpztags                            rgrep                              zfgrep
+ hexdump                              rlogin                             zforce
+ host                                 rm                                 zgrep
+ hostid                               rmdir                              zipdetails
+ hostname                             rnano                              zless
+ hostnamectl                          routef                             zmore
+ htop                                 routel                             znew
+adminuser@6CLN6L3:~$ q^C
+adminuser@6CLN6L3:~$ ^C
+adminuser@6CLN6L3:~$
+adminuser@6CLN6L3:~$ ls
+Balakrishna  backuppractice  bala_linux  error.txt  output.txt  practice  practice1.sh
+adminuser@6CLN6L3:~$ ls -al /bin
+lrwxrwxrwx 1 root root 7 Nov 23  2023 /bin -> usr/bin
+adminuser@6CLN6L3:~$ mkdir fruits
+adminuser@6CLN6L3:~$ cd fruits
+adminuser@6CLN6L3:~/fruits$ l
+adminuser@6CLN6L3:~/fruits$ .
+-bash: .: filename argument required
+.: usage: . filename [arguments]
+adminuser@6CLN6L3:~/fruits$ pwd
+/home/adminuser/fruits
+adminuser@6CLN6L3:~/fruits$ cat>file welocme bala
+cat: welocme: No such file or directory
+cat: bala: No such file or directory
+adminuser@6CLN6L3:~/fruits$ cat>file fruits
+cat: fruits: No such file or directory
+adminuser@6CLN6L3:~/fruits$ ls
+file
+adminuser@6CLN6L3:~/fruits$ cd..
+cd..: command not found
+adminuser@6CLN6L3:~/fruits$ cd ..
+adminuser@6CLN6L3:~$ ls -al
+total 92
+drwxr-x--- 10 adminuser adminuser  4096 Aug 26 11:11 .
+drwxr-xr-x  3 root      root       4096 Mar  5  2024 ..
+lrwxrwxrwx  1 adminuser adminuser    24 Oct  9  2024 .aws -> /mnt/c/Users/151243/.aws
+lrwxrwxrwx  1 adminuser adminuser    26 Oct  9  2024 .azure -> /mnt/c/Users/151243/.azure
+-rw-------  1 adminuser adminuser 17660 Aug 25 18:50 .bash_history
+-rw-r--r--  1 adminuser adminuser   220 Mar  5  2024 .bash_logout
+-rw-r--r--  1 adminuser adminuser  3771 Mar  5  2024 .bashrc
+drwx------  2 adminuser adminuser  4096 Jul  3  2024 .cache
+drwxr-xr-x  4 adminuser adminuser  4096 Oct  9  2024 .docker
+-rw-r--r--  1 adminuser adminuser     0 Aug 18 11:25 .hushlogin
+-rw-------  1 adminuser adminuser    20 Aug 25 12:12 .lesshst
+-rw-r--r--  1 adminuser adminuser     0 Aug 18 11:22 .motd_shown
+-rw-r--r--  1 adminuser adminuser   807 Mar  5  2024 .profile
+drwx------  2 adminuser adminuser  4096 Jul 18  2024 .ssh
+-rw-r--r--  1 adminuser adminuser     0 Oct  9  2024 .sudo_as_admin_successful
+-rw-------  1 adminuser adminuser  3204 Sep  2  2024 .viminfo
+drwxr-xr-x  2 adminuser adminuser  4096 Sep  5  2024 Balakrishna
+drwxr-xr-x  3 adminuser adminuser  4096 Sep  2  2024 backuppractice
+drwxr-xr-x  2 adminuser adminuser  4096 Aug 25 12:31 bala_linux
+-rw-r--r--  1 adminuser adminuser   172 Aug 25 16:19 error.txt
+drwxr-xr-x  2 adminuser adminuser  4096 Aug 26 11:14 fruits
+-rw-r--r--  1 adminuser adminuser    17 Aug 25 16:20 output.txt
+drwxr-xr-x  2 adminuser adminuser  4096 Sep  5  2024 practice
+-rwxr-xr-x  1 adminuser adminuser   103 Sep  5  2024 practice1.sh
+adminuser@6CLN6L3:~$ ps
+    PID TTY          TIME CMD
+    359 pts/0    00:00:00 bash
+    597 pts/0    00:00:00 ps
+adminuser@6CLN6L3:~$ top
+top - 11:16:23 up 36 min,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  31 total,   1 running,  30 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   7646.1 total,   6752.0 free,    476.3 used,    417.7 buff/cache
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   6941.8 avail Mem
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    388 root      20   0   44216  37560  10108 S   0.3   0.5   0:03.26 python3
+      1 root      20   0  165808  11240   8248 S   0.0   0.1   0:01.30 systemd
+      2 root      20   0    2280   1300   1188 S   0.0   0.0   0:00.00 init-systemd(Ub
+      6 root      20   0    2304    132    132 S   0.0   0.0   0:00.01 init
+     41 root      19  -1   47728  14272  13256 S   0.0   0.2   0:00.22 systemd-journal
+     61 root      20   0   22216   6092   4544 S   0.0   0.1   0:00.32 systemd-udevd
+     75 root      20   0    4496    148      0 S   0.0   0.0   0:00.00 snapfuse
+     78 root      20   0    5128   1888   1236 S   0.0   0.0   0:00.88 snapfuse
+     79 root      20   0    4628    168     20 S   0.0   0.0   0:00.00 snapfuse
+     81 root      20   0    4804   1940   1368 S   0.0   0.0   0:02.41 snapfuse
+     82 root      20   0    4976   1876   1368 S   0.0   0.0   0:01.23 snapfuse
+     89 systemd+  20   0   25532  12592   8396 S   0.0   0.2   0:00.34 systemd-resolve
+    179 root      20   0    4304   2668   2428 S   0.0   0.0   0:00.00 cron
+    180 message+  20   0    8584   4716   4172 S   0.0   0.1   0:00.02 dbus-daemon
+    185 root      20   0   30096  19692  10504 S   0.0   0.3   0:00.10 networkd-dispat
+    186 syslog    20   0  222400   7332   4520 S   0.0   0.1   0:00.01 rsyslogd
+    187 root      20   0 1762780  44104  18184 S   0.0   0.6   0:01.04 snapd
+    188 root      20   0   15324   7376   6432 S   0.0   0.1   0:00.08 systemd-logind
+    207 root      20   0    4776   3312   3072 S   0.0   0.0   0:00.08 subiquity-serve
+    211 root      20   0    3236   1100   1008 S   0.0   0.0   0:00.00 agetty
+    216 root      20   0    3192   1136   1044 S   0.0   0.0   0:00.00 agetty
+    221 root      20   0  107224  21228  13128 S   0.0   0.3   0:00.07 unattended-upgr
+    327 root      20   0 1483548  95768  32424 S   0.0   1.2   0:04.17 python3.10
+    357 root      20   0    2296    112      0 S   0.0   0.0   0:00.00 SessionLeader
+    358 root      20   0    2296    120      0 S   0.0   0.0   0:00.01 Relay(359)
+    359 adminus+  20   0    6208   5172   3412 S   0.0   0.1   0:00.04 bash
+adminuser@6CLN6L3:~$
+adminuser@6CLN6L3:~$
+adminuser@6CLN6L3:~$
+adminuser@6CLN6L3:~$ process manaagment
+process: command not found
+adminuser@6CLN6L3:~$ ..
+..: command not found
+adminuser@6CLN6L3:~$ ..
+..: command not found
+adminuser@6CLN6L3:~$ .
+-bash: .: filename argument required
+.: usage: . filename [arguments]
+adminuser@6CLN6L3:~$ .
+-bash: .: filename argument required
+.: usage: . filename [arguments]
+adminuser@6CLN6L3:~$ date
+Tue Aug 26 11:17:02 IST 2025
+adminuser@6CLN6L3:~$ cal
+Command 'cal' not found, but can be installed with:
+sudo apt install ncal
+adminuser@6CLN6L3:~$ uptime
+ 11:17:15 up 36 min,  1 user,  load average: 0.00, 0.00, 0.00
+adminuser@6CLN6L3:~$ w
+ 11:17:23 up 37 min,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+adminuse pts/1    -                10:41   35:43   0.02s  0.01s -bash
+adminuser@6CLN6L3:~$ whoami
+adminuser
+adminuser@6CLN6L3:~$ finger user
+Command 'finger' not found, but can be installed with:
+sudo apt install finger
+adminuser@6CLN6L3:~$ uname -a
+Linux 6CLN6L3 5.15.146.1-microsoft-standard-WSL2 #1 SMP Thu Jan 11 04:09:03 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+adminuser@6CLN6L3:~$ cat/proc/cpuinfo
+-bash: cat/proc/cpuinfo: No such file or directory
+adminuser@6CLN6L3:~$ cat/proc/cpuinfo
+-bash: cat/proc/cpuinfo: No such file or directory
+adminuser@6CLN6L3:~$ man command
+No manual entry for command
+adminuser@6CLN6L3:~$ man
+What manual page do you want?
+For example, try 'man man'.
+adminuser@6CLN6L3:~$ man command
+No manual entry for command
+adminuser@6CLN6L3:~$ df
+Filesystem     1K-blocks      Used Available Use% Mounted on
+none             3914788         4   3914784   1% /mnt/wsl
+none           497924092 294903944 203020148  60% /usr/lib/wsl/drivers
+none             3914788         0   3914788   0% /usr/lib/modules
+none             3914788         0   3914788   0% /usr/lib/modules/5.15.146.1-microsoft-standard-WSL2
+/dev/sdd       263112772   1446280 248228336   1% /
+none             3914788        80   3914708   1% /mnt/wslg
+none             3914788         0   3914788   0% /usr/lib/wsl/lib
+rootfs           3911528      1884   3909644   1% /init
+none             3914788       812   3913976   1% /run
+none             3914788         0   3914788   0% /run/lock
+none             3914788         0   3914788   0% /run/shm
+tmpfs               4096         0      4096   0% /sys/fs/cgroup
+none             3914788        76   3914712   1% /mnt/wslg/versions.txt
+none             3914788        76   3914712   1% /mnt/wslg/doc
+C:\            497924092 294903944 203020148  60% /mnt/c
+snapfuse             128       128         0 100% /snap/bare/5
+snapfuse           75776     75776         0 100% /snap/core22/864
+snapfuse           93952     93952         0 100% /snap/gtk-common-themes/1535
+snapfuse           41856     41856         0 100% /snap/snapd/20290
+snapfuse          134272    134272         0 100% /snap/ubuntu-desktop-installer/1276
+adminuser@6CLN6L3:~$ du
+4       ./bala_linux
+4       ./fruits
+4       ./.cache
+12      ./backuppractice/dir1
+16      ./backuppractice
+4       ./.config/procps
+8       ./.config
+4       ./practice
+20      ./.docker/desktop/log/host
+24      ./.docker/desktop/log
+28      ./.docker/desktop
+4       ./.docker/run
+40      ./.docker
+12      ./.ssh
+4       ./Balakrishna
+152     .
+adminuser@6CLN6L3:~$ free
+               total        used        free      shared  buff/cache   available
+Mem:         7829576      481844     6917432        3024      430300     7114256
+Swap:        2097152           0     2097152
+adminuser@6CLN6L3:~$ whereis app
+app:
+adminuser@6CLN6L3:~$ which app
+adminuser@6CLN6L3:~$ grep pattern
+^C
+adminuser@6CLN6L3:~$ grep -r pattern
+.bashrc:# If set, the pattern "**" used in a pathname expansion context will
+adminuser@6CLN6L3:~$ locate file
+Command 'locate' not found, but can be installed with:
+sudo apt install plocate
+adminuser@6CLN6L3:~$ find -name
+find: missing argument to `-name'
+adminuser@6CLN6L3:~$ find . -n
+find: unknown predicate `-n'
+adminuser@6CLN6L3:~$ pgrep pattern
+adminuser@6CLN6L3:~$ chmod octal file
+chmod: invalid mode: ‘octal’
+Try 'chmod --help' for more information.
+adminuser@6CLN6L3:~$ chmod
+chmod: missing operand
+Try 'chmod --help' for more information.
+adminuser@6CLN6L3:~$ chmod --help
+Usage: chmod [OPTION]... MODE[,MODE]... FILE...
+  or:  chmod [OPTION]... OCTAL-MODE FILE...
+  or:  chmod [OPTION]... --reference=RFILE FILE...
+Change the mode of each FILE to MODE.
+With --reference, change the mode of each FILE to that of RFILE.
+
+  -c, --changes          like verbose but report only when a change is made
+  -f, --silent, --quiet  suppress most error messages
+  -v, --verbose          output a diagnostic for every file processed
+      --no-preserve-root  do not treat '/' specially (the default)
+      --preserve-root    fail to operate recursively on '/'
+      --reference=RFILE  use RFILE's mode instead of MODE values
+  -R, --recursive        change files and directories recursively
+      --help     display this help and exit
+      --version  output version information and exit
+
+Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/chmod>
+or available locally via: info '(coreutils) chmod invocation'
+adminuser@6CLN6L3:~$ ls
+Balakrishna  backuppractice  bala_linux  error.txt  fruits  output.txt  practice  practice1.sh
+adminuser@6CLN6L3:~$ cd fruits
+adminuser@6CLN6L3:~/fruits$ touch file
+adminuser@6CLN6L3:~/fruits$ cd .
+adminuser@6CLN6L3:~/fruits$ cd ..
+adminuser@6CLN6L3:~$ cd fruits
+adminuser@6CLN6L3:~/fruits$ ls -l
+total 0
+-rw-r--r-- 1 adminuser adminuser 0 Aug 26 11:38 file
+adminuser@6CLN6L3:~/fruits$ cd ..
+adminuser@6CLN6L3:~$ ls
+Balakrishna  backuppractice  bala_linux  error.txt  fruits  output.txt  practice  practice1.sh
+adminuser@6CLN6L3:~$ cd Balakrishna
+adminuser@6CLN6L3:~/Balakrishna$ ls
+test.text  test1.txt  test2.txt  test3.txt
+adminuser@6CLN6L3:~/Balakrishna$ ls -l
+total 0
+-rw-r--r-- 1 adminuser adminuser 0 Sep  5  2024 test.text
+-rw-r--r-- 1 adminuser adminuser 0 Sep  5  2024 test1.txt
+-rw-r--r-- 1 adminuser adminuser 0 Sep  5  2024 test2.txt
+-rw-r--r-- 1 adminuser adminuser 0 Sep  5  2024 test3.txt
+adminuser@6CLN6L3:~/Balakrishna$ ls
+test.text  test1.txt  test2.txt  test3.txt
