@@ -1,6 +1,6 @@
 # Variables - change these as per your environment
 $resourceGroup = "myADFResourceGroup"
-$dataFactoryName = "myADF01"
+$dataFactoryName = "myADF0"
 $location = "EastUS"
 
 # Blob Storage Linked Service variables
@@ -11,7 +11,7 @@ $storageAccountKey = "your_storage_account_key"
 $sqlServerName = "my-sql-server.database.windows.net"
 $sqlDatabaseName = "mydatabase"
 $sqlUserName = "sqladmin"
-$sqlPassword = "P@ssw0rd1234"
+$sqlPassword = "*******
 
 # Dataset & Pipeline names
 $blobDatasetName = "BlobInputDataset"
