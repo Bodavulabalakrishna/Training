@@ -1,7 +1,7 @@
 # Variables
 $resourceGroup = "myADFResourceGroup"
 $location = "EastUS"
-$dataFactoryName = "myADF0"    # must be globally unique
+$dataFactoryName = "myADF0"    
 $pipelineName = "MyFirstPipeline"
 
 # Connect to Azure
