@@ -1,0 +1,44 @@
+# Variables
+$resourceGroup = "myADFResourceGroup"
+$location = "EastUS"
+$dataFactoryName = "myADF0"    # must be globally unique
+$pipelineName = "MyFirstPipeline"
+
+# Connect to Azure
+Connect-AzAccount
+
+# Create Resource Group
+New-AzResourceGroup -Name $resourceGroup -Location $location
+
+# Create Azure Data Factory
+New-AzDataFactoryV2 -ResourceGroupName $resourceGroup -Location $location -Name $dataFactoryName
+
+# Define Wait Activity (as hashtable)
+$activity = @{
+    name = "WaitActivity"
+    type = "Wait"
+    typeProperties = @{
+        waitTimeInSeconds = 10
+    }
+}
+
+# Convert to JSON
+$pipelineDefinition = @{
+    properties = @{
+        activities = @($activity)
+    }
+} | ConvertTo-Json -Depth 10
+
+# Now pass it correctly to Set-AzDataFactoryV2Pipeline
+Set-AzDataFactoryV2Pipeline `
+  -ResourceGroupName $resourceGroup `
+  -DataFactoryName $dataFactoryName `
+  -Name $pipelineName `
+  -Definition $pipelineDefinition
+
+
+
+Invoke-AzDataFactoryV2Pipeline `
+  -ResourceGroupName $resourceGroup `
+  -DataFactoryName $dataFactoryName `
+  -PipelineName $pipelineName
